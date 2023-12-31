@@ -1,13 +1,12 @@
-# HEROKU-RCLONE-SERVE-INDEX
+# RCLONE-SERVE-INDEX
 ![plot](./.example_images/image.png)
 
 # Added Webdav Support
 
 Any Remote Cloud Index via HEROKU
 
-Heroku oneclick / Rapid deploy method available
+oneclick / Rapid deploy method available
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html)
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2Ferickyun%2FRCLONE-SERVE-INDEX&name=rcindex&ports=3000;http;/&env%5BCONFIG_IN_URL%5D=%3CCONFIG_IN_URL%3E&env%5BINDEXusername%5D=%3CINDEXusername%3E&env%5BINDEXpassword%5D=%3CINDEXpassword%3E&env%5BPORT%5D=3000&env%5BCLOUDNAME%5D=AllDrives)
 
 ###### Star my Repository & Support me
@@ -15,12 +14,8 @@ Heroku oneclick / Rapid deploy method available
  Feel free to post Any [Issues](https://github.com/developeranaz/RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
 
 ## How To Deploy ?
-### Step 1
-* Star my repository
-* Create a [Heroku](https://dashboard.heroku.com/login) Free account
-* Log in to Heroku in any browser
-* Click on the Rapid deployment button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html) and deploy app
-### Step 2 (setting Config Vars)
+
+### Steps (setting Config Vars)
 #### CONFIG_IN_URL
 
 * Generate rclone.conf file from any terminal or cmd or termux .
