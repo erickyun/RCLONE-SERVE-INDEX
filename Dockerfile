@@ -9,4 +9,4 @@ RUN chmod +x /usr/bin/rcindex
 #CMD rcindex
 COPY . .
 RUN ["chmod", "+x", "start.sh"]
-CMD ["bash", "start.sh"]
+#CMD ["bash", "start.sh"]
