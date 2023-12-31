@@ -1,1 +1,1 @@
-rclone serve webdav AllDrives: --rc-addr=0.0.0.0:3000
+rclone serve webdav AllDrives: --addr=0.0.0.0:3000
