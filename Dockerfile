@@ -7,5 +7,6 @@ RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion
 #COPY rcindex /usr/bin/rcindex
 #RUN chmod +x /usr/bin/rcindex
 #CMD rcindex
-RUN chmod +x start.sh
-CMD bash start.sh
+COPY . .
+RUN ["chmod", "+x", "start.sh"]
+CMD ["bash", "start.sh"]
