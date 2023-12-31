@@ -6,7 +6,7 @@ Any Remote Cloud Index via HEROKU
 Heroku oneclick / Rapid deploy method available
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html)
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=docker&image=developeranaz/rcindex:latest&name=rcindex&ports=3000;http;/&env[CONFIG_IN_URL]=<CONFIG_IN_URL>&env[template]=dark&env[indexauthentication]=false&env[INDEXusername]=<INDEXusername>&env[INDEXpassword]=<INDEXpassword>&env[PORT]=3000&command=rcindex)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2Ferickyun%2FRCLONE-SERVE-INDEX&name=rcindex&ports=3000;http;/&env%5BCONFIG_IN_URL%5D=%3CCONFIG_IN_URL%3E&env%5BINDEXusername%5D=%3CINDEXusername%3E&env%5BINDEXpassword%5D=%3CINDEXpassword%3E&env%5BPORT%5D=3000&env%5BCLOUDNAME%5D=AllDrives)
 
 ###### Star my Repository & Support me
 
@@ -107,5 +107,4 @@ Heroku oneclick / Rapid deploy method available
 * Better Dark UI --⭐ newly added
 
 # Deployment Buttons
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=docker&image=developeranaz/rcindex:latest&name=rcindex&ports=3000;http;/&env[CONFIG_IN_URL]=<CONFIG_IN_URL>&env[template]=dark&env[indexauthentication]=false&env[INDEXusername]=<INDEXusername>&env[INDEXpassword]=<INDEXpassword>&env[PORT]=3000&command=rcindex)
-
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2Ferickyun%2FRCLONE-SERVE-INDEX&name=rcindex&ports=3000;http;/&env%5BCONFIG_IN_URL%5D=%3CCONFIG_IN_URL%3E&env%5BINDEXusername%5D=%3CINDEXusername%3E&env%5BINDEXpassword%5D=%3CINDEXpassword%3E&env%5BPORT%5D=3000&env%5BCLOUDNAME%5D=AllDrives)
